@@ -1,0 +1,155 @@
+/* Dark blue theme */
+body, .portal-body {
+  background-color: #0a0f1d;
+  font-family: 'Segoe UI', sans-serif;
+  color: #ffffff;
+  margin: 0;
+  padding: 0;
+}
+
+.portal-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-top: 40px;
+  color: #00b4d8;
+}
+
+.user-type-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.role-button {
+  background-color: #1e2a3a;
+  border: 1px solid #00b4d8;
+  color: #ffffff;
+  padding: 12px 20px;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.role-button:hover {
+  background-color: #00b4d8;
+  color: #0a0f1d;
+}
+
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(10, 15, 29, 0.95);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.form-wrapper {
+  background-color: #121c2f;
+  border-radius: 12px;
+  padding: 30px;
+  width: 90%;
+  max-width: 500px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 30px rgba(0, 180, 216, 0.2);
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-container h2 {
+  color: #00b4d8;
+  margin-bottom: 10px;
+}
+
+.form-container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-container input {
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+  background-color: #1e2a3a;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+
+.form-container a {
+  color: #90e0ef;
+  font-size: 0.9rem;
+  text-decoration: none;
+  margin-bottom: 15px;
+}
+
+.form-container button {
+  background-color: #00b4d8;
+  border: none;
+  padding: 10px;
+  color: #0a0f1d;
+  font-weight: bold;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.form-container button:hover {
+  background-color: #0077b6;
+}
+
+.wallet-info {
+  font-size: 0.9rem;
+  color: #ade8f4;
+}
+
+.toggle-container {
+  margin-top: 20px;
+}
+
+.toggle-panel {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.toggle-panel h2 {
+  font-size: 1rem;
+  margin-bottom: 8px;
+}
+
+.toggle-panel button {
+  background: none;
+  border: 1px solid #00b4d8;
+  color: #00b4d8;
+  padding: 6px 12px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.toggle-panel button:hover {
+  background-color: #00b4d8;
+  color: #0a0f1d;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 2rem;
+  background: none;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+}
